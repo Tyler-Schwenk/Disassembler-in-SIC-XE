@@ -24,7 +24,7 @@ ADD             3               simple          base_indexed    1BC000
 TIX             3               simple          pc              2F2007
 JLT             3               simple          pc              3B2FF4
 STA             4               simple          absolute        0F102EFD
-ADDR           2                                                9401
+ADDR            2                                               9401
 ```
 
 ### Compilation command:
