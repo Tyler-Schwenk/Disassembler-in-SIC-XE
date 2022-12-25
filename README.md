@@ -5,9 +5,13 @@ $ g++ /home/cs/kaili1993/cssc1808/dissem.cpp -o dissem -std=c++11 -g
 ./dissem [input file]
 
 HSUM   000000002F00
+
 T0000001A0500000320146910178D1BA0101BC0002F20073B2FF40F102EFD
+
 M00000705
+
 M00001705
+
 E000000
 
 INSTR           FORMAT          OAT             TAAM            OBJ
