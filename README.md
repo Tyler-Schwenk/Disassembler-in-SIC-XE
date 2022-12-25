@@ -1,11 +1,6 @@
 # Disassembler-in-SIC-XE
 
-## Compilation command:
-
-```
-$ g++ ~/dissem.cpp -o dissem -std=c++11 -g
-./dissem [input file]
-```
+This program reads and parses SIC/XE object code, specifically extracting each instruction from the text records. It writes to a new output file each instructions mnemonic, format number, operand addressing type, target adress adressing mode, and object code. THe code was written in C++ and files can be read in from the command line.
 
 ## Example Input File 
 
@@ -30,4 +25,11 @@ TIX             3               simple          pc              2F2007
 JLT             3               simple          pc              3B2FF4
 STA             4               simple          absolute        0F102EFD
 ADDR           2                                                9401
+```
+
+### Compilation command:
+
+```
+$ g++ ~/dissem.cpp -o dissem -std=c++11 -g
+./dissem [input file]
 ```
